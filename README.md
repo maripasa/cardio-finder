@@ -1,4 +1,4 @@
-# Death Finder
+# Cardio Finder
 
 A bulk scraper for calculating Framingham and LIN risk scores using Selenium. This tool processes diagnostic data from a CSV file and outputs the results in JSON format.
 
@@ -14,7 +14,7 @@ A bulk scraper for calculating Framingham and LIN risk scores using Selenium. Th
 ## Usage
 
 ```bash
-usage: Death Finder [-h] [-d] [--wait WAIT] {framingham,lin} csv [output]
+usage: Cardio Finder [-h] [-d] [--wait WAIT] {framingham,lin} csv [output]
 
 Bulk Scraper for Framingham and LIN Calculator
 

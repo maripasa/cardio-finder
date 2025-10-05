@@ -1,8 +1,8 @@
 import argparse
-from services.death_finder import DeathFinder
+from services.cardio_finder import CardioFinder
 
 parser = argparse.ArgumentParser(
-    prog="Death Finder",
+    prog="Cardio Finder",
     description="Bulk Scraper for Framingham and LIN Calculator"
 )
 
@@ -34,5 +34,5 @@ parser.add_argument(
 
 args = parser.parse_args()
 
-death_finder = DeathFinder(args)
-death_finder.calculate()
+cardio_finder = CardioFinder(args)
+cardio_finder.calculate()

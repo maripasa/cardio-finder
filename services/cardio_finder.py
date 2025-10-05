@@ -66,7 +66,7 @@ FRAMINGHAM_VALIDATION_RULES = [
     lambda line: 30 < float(line[FRAMINGHAM_INPUTS["systolic_bp"]]) < 300,
 ]
 
-class DeathFinder:
+class CardioFinder:
     """Handles the calculation logic for Framingham and LIN calculators."""
 
     def __init__(self, args):
